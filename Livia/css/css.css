@@ -1,0 +1,270 @@
+
+
+body{
+background-color: antiquewhite;
+background-size: cover;}
+
+.fundo {position: fixed; height: 99.2%;width: 99.2%;}
+
+   h1{ font-family: 'minhafonte'; 
+       position: absolute;
+       left: 200px;
+       color: #4d250a;
+       font-size: 60pt;
+       top: 200px;}
+    
+   p{font-family: 'textocorrido';
+      color:#4d250a;
+      position: absolute;
+      right: 310px;
+      font-size: 23pt;
+      width: 570px; height:500px; margin: left 100px; margin-right: 810px; top: 320px;}
+
+    nav {background-color: #73482F;
+          position:relative;
+          top: 0px;
+          height: 120px;
+          text-align: center;}
+
+    nav a{float: right;
+    text-decoration: none;
+    color: #C3A28A;
+    padding: 25px;
+    font-size: 30pt;
+    text-align: center;}
+
+.icone{ position: absolute;top: 17px;left: 20px;}
+
+.EU{ position: absolute;
+left: 900px;
+top: 200px;}
+
+.botão{text-align: center; 
+       position: absolute; 
+       width:100%; top: 700px; margin-left: -900px;}
+
+
+
+.slider {
+    display: block;
+    height: 400px;
+    width: 800px;
+   margin-left: 50%;
+    margin-top: 150px;
+    position: absolute;}
+
+.slider li {
+    list-style: none;
+    position: absolute;}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;}
+
+.slider input {
+    display: none;}
+.slider label {
+    background-color: #C3A28A;
+    bottom: 10px;border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;}
+
+.slider li:nth-child(1) label {left: 10px;}
+
+.slider li:nth-child(2) label {left: 40px;}
+
+.slider li:nth-child(3) label {left: 70px}
+
+.slider li:nth-child(4) label {left: 100px;}
+
+.slider li:nth-child(5) label {left: 130px}
+
+.slider li:nth-child(6) label {left: 160px;}
+
+.slider img {opacity: 0;visibility: hidden;}
+
+.slider li input:checked ~ img {opacity: 1;visibility: visible;z-index: 10;}
+
+h2{ font-family: 'minhafonte'; 
+    position: absolute;
+    left: 190px;
+    color: #4d250a;
+    font-size: 75pt;
+    top: 200px;}
+
+    h3{font-family: 'textocorrido';
+        color:#4d250a;
+        position: absolute;
+        left: 190px;
+        font-size: 25pt;
+        width: 600px; height:500px; margin: left 100px; margin-right: 50px; top: 400px;}
+
+        h6{ font-family: 'minhafonte'; 
+            position: absolute;
+            left: 190px;
+            color: #4d250a;
+            font-size: 25pt;
+            top: 650px;}
+
+            .caixaImg {
+                position: relative;
+                width: relative;
+                vertical-align: middle;}
+            
+            .imagem {
+                display: relative;
+                width: relative;
+                height: relative;
+                margin-top: 200px;
+                margin-left: 500px;}
+            
+            .sobreposicao {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                opacity: 0;
+                transition: 2s ease;
+                background-color: #4d250a;
+                width:750PX;
+                margin-top: 200px;
+                margin-left: 500px;}
+                
+            .texto {
+                    color: antiquewhite;
+                    font-size: 30px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: middle;
+                    display: inline-block;}
+                    
+             .caixaImg:hover .sobreposicao {opacity: 1;}
+
+.titanic{position: relative; top: 200px; margin-left: 150px;}
+
+.primeiro{ position: relative; top: -190px; margin-left: 1000px;}
+
+h5{font-family:'minhafonte';
+font-size: 40pt;
+top: 650px;
+position: absolute;
+margin-left: 1250px;
+color: #4d250a;}
+
+h4{font-family:'minhafonte';
+    font-size: 40pt;
+    top: 660px;
+    position: absolute;
+    margin-left: 400px;
+    color: #4d250a;}
+
+.vivaz{position: absolute; top: 250px;margin-left: 100px;}
+
+.frente{position: absolute; top: 700px; margin-left: 1000px;}
+.atras{position: absolute;}
+
+@font-face{ 
+    font-family: 'minhafonte'; 
+    src: url(../Fontes/Magistral\ Honesty.otf);}
+@font-face{
+    font-family: 'textocorrido';
+    src: url(../Fontes/Quicksand_Light.otf);} 
+
+    
+
+.texto3 {
+    font-family: 'textocorrido';
+    color: #C3A28A;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;                   
+    transform: translate(-50%, -50%);
+    text-align: middle;
+    display: inline-block;}
+                    
+             .caixaImg:hover .sobreposicao {opacity: 1;}
+             .caixaImg1:hover .sobreposicao1 {opacity: 1;}
+             .caixaImg3:hover .sobreposicao3 {opacity: 1;}
+
+.titanic{position: relative; top: 200px; margin-left: 150px;}
+
+.primeiro{ position: relative; top: -190px; margin-left: 1000px;}
+
+h5{font-family:'minhafonte';
+font-size: 40pt;
+top: 650px;
+position: absolute;
+margin-left: 1250px;
+color: #4d250a;}
+
+h4{font-family:'minhafonte';
+    font-size: 40pt;
+    top: 660px;
+    position: absolute;
+    margin-left: 400px;
+    color: #4d250a;}
+
+.vivaz{position: absolute; top: 250px;margin-left: 100px;}
+
+.frente{position: absolute; top: 760px; margin-left: 1130px;}
+.atras{position: absolute; top: 760px; margin-left: 1450px;}
+
+h7{position: absolute; 
+   font-family: 'minhafonte'; 
+   font-size: 60pt;
+   color: #4d250a;
+   top: 250px; 
+margin-left: 440px;}
+
+h8{ position: absolute;
+font-family: 'textocorrido';
+font-size: 25pt;
+color: #4d250a;
+top: 335px;
+margin-left: 440px;
+width: 600px; height:500px;}
+
+h9{position: absolute; 
+    font-family: 'minhafonte'; 
+    font-size: 60pt;
+    color: #4d250a;
+    top: 780px; 
+ margin-left: 370px;}
+ 
+ h10{ position: absolute;
+ font-family: 'textocorrido';
+ font-size: 25pt;
+ color: #4d250a;
+ text-align: right;
+ top:865px;
+ margin-left: 480px;
+ width: 600px; height:500px;}
+
+ .vivaz{transition: all 1s;cursor: pointer;}
+    .vivaz:hover{transform: scale(1.5);}
+
+    .frente{transition: all 1s;cursor: pointer;}
+    .frente:hover{transform: scale(1.5);}
+
+    .atras{transition: all 1s;cursor: pointer;}
+    .atras:hover{transform: scale(1.5);}
+
+ 
+
+@font-face{ 
+    font-family: 'minhafonte'; 
+    src: url(../Fontes/Magistral\ Honesty.otf);}
+@font-face{
+    font-family: 'textocorrido';
+    src: url(../Fontes/Quicksand_Light.otf);}
